@@ -1,0 +1,18 @@
+{
+  "name": "shouldiuse",
+  "version": "0.0.1",
+  "description": "CLI Tool to aid is determining if a CSS/JS should be used in your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quangdao Nguyen <quangdaonguyen@graydientcreative.com>",
+  "license": "MIT",
+  "dependencies": {
+    "caniuse-api": "^2.0.0",
+    "inquirer": "^5.1.0",
+    "inquirer-autocomplete-prompt": "^0.12.1",
+    "list-selector-cli": "0.0.3",
+    "yargs": "^11.0.0"
+  }
+}
